@@ -28,7 +28,7 @@ module.exports = {
   plugins:[
   new HtmlWebpackPlugin({
     title: 'Output Management',
-    template: path.resolve(__dirname, 'index.html') //__dirname=D:Tratsiak_Olga\Test - полный путь к шаблону
+    template: path.resolve(__dirname, 'src/index.html') //__dirname=D:Tratsiak_Olga\Test - полный путь к шаблону
   }),
   new MiniCssExtractPlugin({
     filename: 'index.[fullhash].css' //'[name].css - если написать так, то в dist будет присваиваться имя main.css
